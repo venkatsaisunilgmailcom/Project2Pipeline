@@ -1,3 +1,3 @@
 FROM nginx
 LABEL Sunil="Sunil"
-COPY . /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
